@@ -90,8 +90,8 @@ create_symlink "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
 echo -e "\n${GREEN}=== Installation Complete! ===${NC}"
 echo -e "${YELLOW}Note: Don't forget to update your Git configuration with your name and email:${NC}"
-echo -e "  git config --global user.name \"Your Name\""
-echo -e "  git config --global user.email \"your.email@example.com\""
+echo -e "  git config --global user.name \"YOUR_NAME\""
+echo -e "  git config --global user.email \"YOUR_EMAIL@EXAMPLE.COM\""
 echo ""
 if [ -d "$BACKUP_DIR" ]; then
     echo -e "${YELLOW}Your old dotfiles have been backed up to: $BACKUP_DIR${NC}"
