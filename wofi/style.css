@@ -1,0 +1,44 @@
+window {
+    margin: 5px;
+    border: 2px solid #89dceb; /* Electric Blue border */
+    background-color: #11111b; /* Pitch blue-black background */
+    border-radius: 12px;
+}
+
+#input {
+    all: unset; /* Clears default styling */
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #89dceb;
+    color: #cdd6f4;
+    background-color: #1e1e2e;
+}
+
+#inner-box {
+    margin: 10px;
+}
+
+#outer-box {
+    margin: 5px;
+}
+
+#entry {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #89dceb;
+    color: #11111b; /* Dark text on blue background for contrast */
+    outline: none;
+}
+
+#text {
+    margin: 5px;
+    color: #c0caf5;
+}
+
+#text:selected {
+    color: #ffffff;
+}

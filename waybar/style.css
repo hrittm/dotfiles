@@ -1,0 +1,17 @@
+#clock, #battery, #cpu, #memory, #pulseaudio, #network, #tray {
+    padding: 0 12px;     /* Internal space between icon and text */
+    margin: 4px 4px;      /* Space between the capsules */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    min-width: 40px;      /* Ensures capsules don't collapse */
+}
+
+/* Specifically fix the overlap for icons */
+#network, #pulseaudio, #battery {
+    margin-right: 5px;
+}
+
+#waybar {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-weight: bold;
+}
