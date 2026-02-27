@@ -8,7 +8,7 @@
     "height": 34,
     "modules-left": ["hyprland/workspaces", "cpu", "memory"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "pulseaudio", "battery", "clock", "tray"],
+    "modules-right": ["network", "custom/warp", "pulseaudio", "battery", "clock", "tray"],
 
     "hyprland/workspaces": {
         "format": "{name}",
@@ -44,7 +44,7 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format": " {:%H:%M   %d/%m}",
+        "format": " {:%H:%M  󰃭 %d/%m}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "tray": {
@@ -55,5 +55,13 @@
         "format": "{title}",
         "max-length": 30,
         "separate-outputs": true
-   }
+    },
+    "custom/warp": {
+        "format": "{}",
+        "return-type": "json",
+    	"exec": "~/.config/waybar/warp-status.sh",
+    	"interval": 10,
+    	"on-click": "warp-cli connect",
+    	"on-click-right": "warp-cli disconnect"
+    },
 }

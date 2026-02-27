@@ -1,0 +1,16 @@
+# Fonts
+font-family = "Fira Code Retina"
+font-style = Regular
+font-style-bold = "SemiBold"
+font-size = 10
+
+# System
+confirm-close-surface = false
+adjust-cell-height = 18%
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+window-decoration = false
+
+# Theme (currently, Batman)
+# For all available themes, run `ghostty +list-themes`
+theme = Wombat
