@@ -1,0 +1,85 @@
+#cpu, #memory, #tray {
+    padding: 0 12px;     /* Internal space between icon and text */
+    margin: 4px 4px;      /* Space between the capsules */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    min-width: 40px;      /* Ensures capsules don't collapse */
+}
+
+/* The Network/Wifi Icon */
+#network {
+    color: #89dceb; /* Electric Blue */
+    background-color: #32302f;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 2px;
+}
+
+/* The Volume Icon */
+#pulseaudio {
+    color: #fab387; /* Soft Orange */
+    background-color: #32302f;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 2px;
+}
+
+/* The Battery Icon */
+#battery {
+    color: #a6e3a1; /* Mint Green */
+    background-color: #32302f;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 2px;
+}
+
+#battery.charging {
+    color: #f9e2af; /* Yellow when charging */
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f38ba8; /* Red background when dying */
+    color: #11111b;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* The Clock */
+#clock {
+    color: #cba6f7; /* Lavender */
+    background-color: #32302f;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 2px;
+}
+
+/* Waybar */
+#waybar {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.9); /* Dark Charcoal/Blue */
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 0;
+    padding: 4px 0;
+}
+
+/* Warp */
+#custom-warp {
+    background-color: #32302f; /* Match your other pill backgrounds */
+    color: #89dceb;           /* Your Electric Blue color */
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 2px;
+    font-size: 16px; 
+}
+
+/* Optional: change color when disconnected */
+#custom-warp.disconnected {
+    color: #f38ba8;           /* Muted red/pink if Warp is off */
+}
