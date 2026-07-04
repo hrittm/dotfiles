@@ -219,4 +219,6 @@ Common places to adjust the setup:
 
 - `profiles.ini` and `installs.ini` under Firefox are intentionally ignored now because they are machine-specific registry files, not portable dotfiles.
 - `gh/` and `dconf/` are ignored because they contain user/session state and binary settings data.
-- Some future files like `tmux.conf` are intentionally missing for now but can be added later. The `.bashrc`, `.bash_profile`, and `.gitconfig` files are now present in the `home/` directory.
+- Some future files like `tmux.conf` are intentionally missing for now but can be added later.
+
+**THANKS** ☘️
