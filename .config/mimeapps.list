@@ -1,0 +1,4 @@
+[Default Applications]
+image/jpeg=org.gnome.Loupe.desktop;
+image/png=org.gnome.Loupe.desktop;
+video/mp4=firefox.desktop;

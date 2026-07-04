@@ -1,0 +1,7 @@
+{
+  "editor": "nano",
+  "gitbin": "git",
+  "cleanAfter": true,
+  "removeMake": "ask",
+  "redownload": "no"
+}

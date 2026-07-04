@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "style.css": "css"
+  },
+  "files.exclude": {
+    "Code/User/History": true
+  },
+  "search.exclude": {
+    "Code/User/History": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "Lua.workspace.library": [
+    "/usr/share/hypr/stubs"
+  ],
+  "Lua.workspace.ignoreDir": [
+    "Code/User/History"
+  ],
+  "Lua.diagnostics.globals": [
+    "hl"
+  ]
+}
