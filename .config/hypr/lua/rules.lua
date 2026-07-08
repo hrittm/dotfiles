@@ -70,5 +70,5 @@ hl.window_rule({
 })
 
 -- Smart gaps: collapse the outer padding for specific tiling-heavy workspaces.
-hl.workspace_rule({ workspace = "n[s:window] w[tv1]", gaps_out = { top = 0, right = 0, bottom = 0, left = 0 }, gaps_in = { top = 0, right = 0, bottom = 0, left = 0 } })
-hl.workspace_rule({ workspace = "n[s:window] f[1]", gaps_out = { top = 0, right = 0, bottom = 0, left = 0 }, gaps_in = { top = 0, right = 0, bottom = 0, left = 0 } })
+hl.workspace_rule({ workspace = "n[s:window] w[tv1]", gaps_out = 0, gaps_in = 0 })
+hl.workspace_rule({ workspace = "n[s:window] f[1]", gaps_out = 0, gaps_in = 0 })
