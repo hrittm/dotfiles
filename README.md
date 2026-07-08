@@ -37,7 +37,10 @@ dotfiles/
 │   ├── gtk-4.0/
 │   │   └── settings.ini
 │   ├── hypr/
+│   │   ├── hypridle.conf
 │   │   ├── hyprland.lua
+│   │   ├── hyprlock.conf
+│   │   ├── hyprpaper.conf
 │   │   └── lua/
 │   │       ├── animations.lua
 │   │       ├── autostart.lua
