@@ -12,8 +12,6 @@ It is focused on a minimal, aesthetic Wayland desktop with a few supporting tool
 
 The goal is to keep the desktop lightweight, readable, and easy to extend.
 
-> [!WARNING]
-> Still in progress.
 
 ## Current Layout
 
