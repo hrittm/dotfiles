@@ -1,4 +1,5 @@
 -- ~/.config/hypr/lua/misc.lua
+---@diagnostic disable: undefined-global
 
 hl.config({
     misc = {

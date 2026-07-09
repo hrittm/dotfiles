@@ -1,4 +1,5 @@
 -- ~/.config/hypr/lua/input.lua
+---@diagnostic disable: undefined-global
 
 hl.config({
     input = {

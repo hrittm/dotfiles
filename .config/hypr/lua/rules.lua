@@ -1,5 +1,5 @@
 -- ~/.config/hypr/lua/rules.lua
-
+---@diagnostic disable: undefined-global
 -- Window rules that improve day-to-day behavior without becoming app-specific noise.
 
 -- Ignore maximize requests from clients that still emit them by habit.

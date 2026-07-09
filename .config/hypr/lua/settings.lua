@@ -1,5 +1,5 @@
 -- ~/.config/hypr/lua/settings.lua
-
+---@diagnostic disable: undefined-global
 -- Core compositor behavior that does not belong in decoration/input-specific files.
 hl.config({
 	general = {

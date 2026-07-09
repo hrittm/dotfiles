@@ -1,5 +1,6 @@
 -- ~/.config/hypr/lua/autostart.lua
 -- See https://wiki.hypr.land/Configuring/Basics/Autostart/
+---@diagnostic disable: undefined-global
 
 hl.on("hyprland.start", function()
     -- Avoid duplicate instances and skip commands that are not installed.

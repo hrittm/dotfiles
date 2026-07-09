@@ -1,4 +1,5 @@
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+---@diagnostic disable: undefined-global
 
 -- Cursor and desktop identity
 hl.env("XCURSOR_SIZE", "24")

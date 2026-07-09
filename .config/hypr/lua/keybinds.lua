@@ -1,4 +1,5 @@
 -- ~/.config/hypr/lua/keybinds.lua
+---@diagnostic disable: undefined-global
 
 local apps = require("lua.variables")
 local mod = apps.main_mod
@@ -53,7 +54,7 @@ hl.bind(mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 -- Region to clipboard
 hl.bind("Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | wl-copy"), { locked = true })
 -- Whole screen save to Pictures
-hl.bind(mod .. " + Print", hl.dsp.exec_cmd("grim ~/Pictures/$(date +'%Y-%m-%d_%H-%M-%S').png"), { locked = true })
+hl.bind(mod .. " + Print", hl.dsp.exec_cmd("grim ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png"), { locked = true })
 
 -- Clipboard helper (rofi)
 hl.bind(mod .. " + CTRL + V", hl.dsp.exec_cmd("command -v cliphist >/dev/null && cliphist list | rofi -dmenu | cliphist decode | wl-copy"), { locked = true })

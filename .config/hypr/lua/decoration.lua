@@ -1,5 +1,7 @@
 -- ~/.config/hypr/lua/decoration.lua
 -- Visual styling and rendering-related values only.
+---@diagnostic disable: undefined-global
+
 hl.config({
     decoration = {
         rounding       = 10,
