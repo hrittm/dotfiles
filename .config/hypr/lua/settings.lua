@@ -15,7 +15,7 @@ hl.config({
 		},
 
 		-- Safer defaults for a regular desktop workflow.
-		resize_on_border = false,
+		resize_on_border = true,
 		allow_tearing = false,
 		layout = "dwindle",
 

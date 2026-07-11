@@ -50,6 +50,12 @@ hl.bind(mod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(mod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
+-- Keyboard-based window resizing (mod + ALT + Arrow keys)
+hl.bind(mod .. " + ALT + left",  hl.dsp.window.resize({ x = -30, y = 0, relative = true }), { repeating = true })
+hl.bind(mod .. " + ALT + right", hl.dsp.window.resize({ x = 30, y = 0, relative = true }),  { repeating = true })
+hl.bind(mod .. " + ALT + up",    hl.dsp.window.resize({ x = 0, y = -30, relative = true }), { repeating = true })
+hl.bind(mod .. " + ALT + down",  hl.dsp.window.resize({ x = 0, y = 30, relative = true }),  { repeating = true })
+
 -- Screenshots
 -- Region to clipboard
 hl.bind("Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | wl-copy"), { locked = true })
