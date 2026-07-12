@@ -81,6 +81,9 @@ dotfiles/
 │   │   └── style.css
 │   └── yay/
 │       └── config.json
+├── assets/
+│   │   ├── desktop.png
+│   │   └── lockscreen.png
 ├── home/
 │   ├── .bash_profile
 │   ├── .bashrc
