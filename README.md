@@ -1,4 +1,6 @@
-# Overview
+![My Desktop Setup](./assets/desktop.png)
+
+## Overview
 
 This directory is the config portion of a personal [Arch](https://archlinux.org/) + [Hyprland](https://hypr.land/) dotfiles setup.
 It is focused on a minimal, aesthetic Wayland desktop with a few supporting tools:
