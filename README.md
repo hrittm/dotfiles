@@ -27,16 +27,19 @@ dotfiles/
 │   ├── Code/
 │   │   └── User/
 │   │       └── settings.json
+│   ├── dunst/
+│   │   └── dunstrc
 │   ├── fish/
 │   │   └── config.fish
-│   ├── gh/
-│   │   ├── config.yml
-│   │   └── hosts.yml
 │   ├── gtk-3.0/
 │   │   └── settings.ini
 │   ├── gtk-4.0/
 │   │   └── settings.ini
+│   ├── htop/
+│   │   └── htoprc
 │   ├── hypr/
+│   │   ├── .vscode/
+│   │   │   └── settings.json
 │   │   ├── hypridle.conf
 │   │   ├── hyprland.lua
 │   │   ├── hyprlock.conf
@@ -56,14 +59,8 @@ dotfiles/
 │   ├── kitty/
 │   │   └── kitty.conf
 │   ├── mimeapps.list
-│   ├── mozilla/
-│   │   └── firefox/
-│   │       └── profiles.ini
-│   ├── pulse/
-│   │   └── cookie
 │   ├── rofi/
 │   │   └── config.rasi
-│   ├── session/
 │   ├── speech-dispatcher/
 │   │   ├── clients/
 │   │   │   └── emacs.conf
@@ -76,14 +73,17 @@ dotfiles/
 │   │   │   ├── espeak.conf
 │   │   │   └── festival.conf
 │   │   └── speechd.conf
+│   ├── starship.toml
+│   ├── tmux/
+│   │   └── tmux.conf
 │   ├── waybar/
 │   │   ├── config.jsonc
 │   │   └── style.css
 │   └── yay/
 │       └── config.json
 ├── assets/
-│   │   ├── desktop.png
-│   │   └── lockscreen.png
+│   ├── desktop.png
+│   └── lockscreen.png
 ├── home/
 │   ├── .bash_profile
 │   ├── .bashrc
@@ -146,7 +146,6 @@ Waybar is used as the top panel with modules for:
 - `rofi/config.rasi` sets a minimal launcher theme
 - `mimeapps.list` defines file handler defaults
 - `gtk-3.0/settings.ini` and `gtk-4.0/settings.ini` keep GTK apps aligned
-- `gh/config.yml` stores GitHub CLI preferences and is treated as user state
 
 ## Installation
 
@@ -225,6 +224,5 @@ Common places to adjust the setup:
 
 - `profiles.ini` and `installs.ini` under Firefox are intentionally ignored now because they are machine-specific registry files, not portable dotfiles.
 - `gh/` and `dconf/` are ignored because they contain user/session state and binary settings data.
-- Some future files like `tmux.conf` are intentionally missing for now but can be added later.
 
 **THANKS** ☘️
