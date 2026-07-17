@@ -47,14 +47,14 @@
       "3": "三",
       "4": "四",
       "5": "五",
-/*    "6": "六",
+      "6": "六",
       "7": "七",
       "8": "八",
       "9": "九",
-      "10": "十" */
+      "10": "十" 
     },
     "persistent-workspaces": {
-      "*": 5	/*change it to increase or dicrease workspace number on waybar. also uncomment icons.*/
+      "*": 5	// change it to increase or dicrease workspace number on waybar.
     }
   },
 
