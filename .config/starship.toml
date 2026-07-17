@@ -1,0 +1,31 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+# Matches the exact format: username@hostname directory>
+format = """
+$username\
+$hostname\
+$directory\
+$character"""
+
+# Username setup (plain text, only shows if needed, or forced)
+[username]
+show_always = true
+format = "[$user](green)"
+
+# Hostname setup
+[hostname]
+ssh_only = false
+format = "[@$hostname](white) "
+
+# Directory configuration for fish-style truncation (~/.c/h/lua)
+[directory]
+style = "cyan"
+truncation_length = 1
+fish_style_pwd_dir_length = 1
+
+# Simple character prompt matching your example
+[character]
+success_symbol = "[>](plain)"
+error_symbol = "[>](red)"
