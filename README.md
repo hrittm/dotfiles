@@ -29,6 +29,8 @@ dotfiles/
 │   │       └── settings.json
 │   ├── dunst/
 │   │   └── dunstrc
+│   ├── fastfetch/
+│   │   └── config.jsonc
 │   ├── fish/
 │   │   └── config.fish
 │   ├── gtk-3.0/
@@ -141,6 +143,7 @@ Waybar is used as the top panel with modules for:
 
 ### App Defaults
 
+- `fastfetch/config.jsonc` sets an aesthetic fastfetch print
 - `fish/config.fish` sets shell environment and PATH basics
 - `kitty/kitty.conf` sets a clean terminal baseline
 - `rofi/config.rasi` sets a minimal launcher theme

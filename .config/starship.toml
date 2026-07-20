@@ -2,7 +2,7 @@
 
 add_newline = false
 
-# Matches the exact format: username@hostname directory>
+# format: username@hostname directory>
 format = """
 $username\
 $hostname\
@@ -25,7 +25,7 @@ style = "cyan"
 truncation_length = 1
 fish_style_pwd_dir_length = 1
 
-# Simple character prompt matching your example
+# Simple character prompt
 [character]
 success_symbol = "[>](plain)"
 error_symbol = "[>](red)"

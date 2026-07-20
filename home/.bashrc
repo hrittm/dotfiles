@@ -13,3 +13,6 @@ PS1='[\u@\h \W]\$ '
 # Added by Antigravity CLI installer
 export PATH="/home/hrittick/.local/bin:$PATH"
 export PATH="/home/hrittick/.local/bin:$PATH"
+
+# Initialize starship 
+eval "$(starship init bash)"
