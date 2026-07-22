@@ -10,5 +10,8 @@
         "*.gitpod.io": "linux"
     },
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "chat.viewSessions.orientation": "stacked",
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "'JetBrains Mono', 'monospace'",
 }

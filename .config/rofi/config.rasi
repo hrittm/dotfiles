@@ -73,3 +73,9 @@ element-icon {
 element-text {
   background-color: transparent;
 }
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+@theme "/usr/share/rofi/themes/Monokai.rasi"

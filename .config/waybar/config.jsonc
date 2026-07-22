@@ -25,6 +25,7 @@
     "battery"
   ],
   "modules-center": [
+//    "hyprland/window",
     "mpris"
   ],
   "modules-right": [
@@ -57,6 +58,16 @@
       "*": 5	// change it to increase or dicrease workspace number on waybar.
     }
   },
+
+/*
+  "hyprland/window": {
+    "format": "{}",
+    "rewrite": {
+      "(.*) - Mozilla Firefox": "🌎 $1",
+      "(.*) - zsh": "> [$1]"
+    }
+  },
+*/
 
   "custom/separator": {
     "format": "|",
